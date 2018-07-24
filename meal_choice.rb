@@ -5,19 +5,19 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
-def breakfest(food = "Pancakes")
+def breakfest(food = "Pancakes, frosted flakes")
   puts "I always eat #{food} cause in the morning because im not hungry"
 end
 
 breakfest
 
-def lunch(food = "Penut butter")
+def lunch(food = "Penut butter, grilled cheese")
   puts "I eat #{food} during lunch"
 end
 
 lunch
 
-def dinner(food = "salmon")
+def dinner(food = "salmon, broccoli)
   puts "I eat #{food} at night"
 end
 
